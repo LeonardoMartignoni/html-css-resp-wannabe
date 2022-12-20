@@ -134,3 +134,18 @@ img {
         width: 750px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+
+    .container {
+        width: 400px;
+    }
+}
